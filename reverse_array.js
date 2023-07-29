@@ -31,4 +31,3 @@ console.log("Reversed array is");
 
 // To print the Reversed array
 printArray(arr, n);
-
