@@ -14,7 +14,6 @@ function getMinMax(arr, n) {
         minmax.min = arr[0];
         return minmax;
     }
-
     /* If there are more than one elements, then initialize min
 and max*/
     if (arr[0] > arr[1]) {
@@ -43,5 +42,3 @@ var arr_size = 6;
 minmax = getMinMax(arr, arr_size);
 console.log("\nMinimum element is ", minmax.min);
 console.log("\nMaximum element is ", minmax.max);
-
-
