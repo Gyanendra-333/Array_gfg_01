@@ -1,0 +1,14 @@
+// Simple Javascript program to find K'th smallest element
+
+// Function to return K'th smallest element in a given array
+function kthSmallest(arr, N, K) {
+    // Sort the given array
+    arr.sort((a, b) => a - b);
+
+    // Return k'th element in the sorted array
+    return arr[K - 1];
+}
+
+let arr = [12, 3, 5, 7, 19];
+let N = arr.length, K = 3;
+console.log("K'th smallest element is " + kthSmallest(arr, N, K));
