@@ -32,19 +32,21 @@
 
 
 
-// find the peak element in given array 
+// find the peak element in given array
 
-function findPeakElem(arr, n) {
+// function findPeakElem(arr, n) {
 
-    // put initial condition 
-    if (n == 1) return 0;
-    if (arr[0] >= arr[1]) return 0;
-    if (arr[n - 1] >= arr[n - 2]) return 0;
+//     // put initial condition
+//     if (n == 1) return 0;
+//     if (arr[0] >= arr[1]) return 0;
+//     if (arr[n - 1] >= arr[n - 2]) return 0;
 
-    for (let i = 1; i < n - 1; i++) {
-        if (arr[i] >= arr[i - 1] && arr[i] >= arr[i + 1]) return i;
-    }
-}
-let arr = [5, 40, 6, 5];
-let n = arr.length;
-console.log("Peak Element index is : ", + findPeakElem(arr, n));
+//     for (let i = 1; i < n - 1; i++) {
+//         if (arr[i] >= arr[i - 1] && arr[i] >= arr[i + 1]) return i;
+//     }
+// }
+// let arr = [5, 40, 6, 5];
+// let n = arr.length;
+// console.log("Peak Element index is : ", + findPeakElem(arr, n));
+
+
