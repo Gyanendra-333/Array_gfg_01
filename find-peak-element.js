@@ -17,6 +17,6 @@ function findPeak(arr, n) {
     }
 }
 
-var arr = [1, 3, 20, 4, 1, 0];
+var arr = [1, 20, 2, 4, 1, 0];
 var n = arr.length;
 console.log("Index of a peak point is " + findPeak(arr, n));
