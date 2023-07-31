@@ -50,3 +50,15 @@
 // console.log("Peak Element index is : ", + findPeakElem(arr, n));
 
 
+// function countOfOccurance(arr, n, x) {
+//     let res = 0;
+//     for (let i = 0; i < n; i++) {
+//         if (x == arr[i])
+//             res++;
+//     }
+//     return res;
+// }
+// let arr = [1, 2, 3, 3, 2, 3, 4, 2, 3];
+// let n = arr.length;
+// let x = 3;
+// console.log(countOfOccurance("Count of Occurance = " + arr, n, x));
