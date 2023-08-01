@@ -94,3 +94,12 @@
 
 
 
+function arrangeNum(arr) {
+    arr.sort();
+}
+let arr = [2, -3, 6, -6, -7, -9, 3, 7, 4, -2];
+arrangeNum(arr);
+
+for (let num of arr)
+
+    console.log(num);
