@@ -62,3 +62,35 @@
 // let n = arr.length;
 // let x = 3;
 // console.log(countOfOccurance("Count of Occurance = " + arr, n, x));
+
+
+// function findSubarraySum(arr, n, sum) {
+
+//     for (let i = 0; i < n; i++) {
+//         let currentSum = arr[i];
+
+//         if (currentSum == sum) {
+//             console.log("sum of subArray index " + i);
+//             return;
+//         }
+//         else {
+//             for (let j = i + 1; j < n; j++) {
+//                 currentSum += arr[j];
+
+//                 if (currentSum == sum) {
+//                     console.log("sum of Subarray from indexs is " + i + " to " + j);
+//                     return;
+//                 }
+//             }
+//         }
+//     }
+//     console.log("Subarray not Found");
+//     return;
+// }
+// let arr = [1, 3, 5, 7, 9, 2, 3];
+// let n = arr.length;
+// let sum = 15;
+// findSubarraySum(arr, n, sum);
+
+
+
