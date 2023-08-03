@@ -1,4 +1,6 @@
 
+// Bubble sort
+
 // function bubbleSort(arr, n) {
 //     let i, j, temp, swapped;
 
