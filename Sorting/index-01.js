@@ -1,5 +1,5 @@
 
-// Bubble sort
+// Bubble sort problem
 
 // function bubbleSort(arr, n) {
 //     let i, j, temp, swapped;
