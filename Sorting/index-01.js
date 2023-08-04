@@ -70,3 +70,27 @@
 
 
 
+function insertionSort(arr, n) {
+    let i, j, key;
+    for (let i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
+}
+function printArray(arr, n) {
+    let i;
+    for (let i = 0; i < n; i++) {
+        console.log(arr[i]);
+    }
+}
+let arr = [9, 3, 7, 2, 6, 2];
+let n = arr.length;
+
+insertionSort(arr, n);
+printArray(arr, n);
