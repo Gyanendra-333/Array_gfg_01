@@ -87,4 +87,3 @@ mergeSort(arr, 0, arr_size - 1);
 
 console.log("Sorted array is ");
 printArray(arr, arr_size);
-
