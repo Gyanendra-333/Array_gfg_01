@@ -14,19 +14,22 @@
 
 
 
-// Fibnacci number find 
+// Fibnacci number find
 
-function findFibnacciNum(n) {
-    if (n == 0) return 0;
-    if (n == 1 || n == 2) return 1;
+// function findFibnacciNum(n) {
+//     if (n == 0) return 0;
+//     if (n == 1 || n == 2) return 1;
 
-    else {
-        return findFibnacciNum(n - 1) + findFibnacciNum(n - 2);
-    }
-}
-let n = 8;
-console.log("Fibnacci number is : ");
+//     else {
+//         return findFibnacciNum(n - 1) + findFibnacciNum(n - 2);
+//     }
+// }
+// let n = 8;
+// console.log("Fibnacci number is : ");
 
-for (let i = 0; i < n; i++) {
-    console.log(findFibnacciNum(i) + " ");
-}
+// for (let i = 0; i < n; i++) {
+//     console.log(findFibnacciNum(i) + " ");
+// }
+
+
+
