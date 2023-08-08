@@ -34,12 +34,15 @@
 
 // Find Factorial
 
-function fact(n) {
-    if (n == 0 || n == 1) return 1;
+// function fact(n) {
+//     if (n == 0 || n == 1) return 1;
 
-    else {
-        return n * fact(n - 1);
-    }
-}
-let n = 9;
-console.log("Factorial of " + n + " is : " + fact(n));
+//     else {
+//         return n * fact(n - 1);
+//     }
+// }
+// let n = 9;
+// console.log("Factorial of " + n + " is : " + fact(n));
+
+
+
